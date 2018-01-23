@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei', '微软雅黑', arial, \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti, '宋体';
+}
+a, a:active, a:hover, a:visited {
+    text-decoration: none!important;
+    cursor: pointer;
+}
+.container{
+    position: relative;
+    min-width: 1200px;
+}
+.common-head{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    overflow: hidden;
+    padding-top:1px;
+}
+.common-head .common-head-logo{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 182px;
+    margin-right: 560px;
+}
+.common-head .common-head-logo:after{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 17.5px;
+    left: 0;
+    height: 45px;
+    width: 164px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+    background-position: -258px -128px;
+}
+.common-head a{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    font-size: 16px;
+    color: #848484;
+}
+.common-head .on{
+    color: #F0831E;
+}
+.common-head .on:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 120px;
+    bottom: 0;
+    left: 0;
+    background: #F0831E;
+}
+.common-foot{
+    height: 262px;
+    background: #F2F2F2;
+}
+.common-foot .common-foot-content{
+    width: 1200px;
+    height: 212px;
+    margin: 0 auto;
+}
+.common-foot .common-foot-content i{
+    display: block;
+    float: left;
+    margin-top: 31px;
+    width: 128px; 
+    height: 150px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+    background-position: -188px -247px;
+}
+.common-foot .common-foot-content .common-foot-content-list{
+    float: left;
+    margin-top: 41px;
+    margin-left: 102px;
+    font-size: 12px;
+    color: #9C9C9C;
+}
+.common-foot .common-foot-content .common-foot-content-list a{
+    display: block;
+    line-height: 31px;
+}
+.common-foot .common-foot-content .common-foot-content-contact{
+    float: right;
+    margin-top: 41px;
+    color: #646464;
+    font-size: 12px;
+    line-height: 30px;
+}
+.common-foot .common-foot-content .common-foot-content-contact p{
+    color: #F0831E;
+    margin-bottom: 10px;
+}
+.common-foot .common-foot-copyright{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    background: #E4E4E4;
+}
+/* 首页 */
+.index-banner{
+    height: 540px;
+    width: 100%;
+    background: url(../img/index_banner.png) no-repeat center;
+}
+.index-banner .index-banner-content{
+    width: 1200px;
+    height: 540px;
+    margin: 0 auto;
+}
+.index-banner .index-banner-content img{
+    display: block;
+    float: right;
+    height: 215px;
+    width: 215px;
+    margin-top: 90px;
+    margin-right: 140px;
+}
+.index-banner .index-banner-content .index-banner-content-text{
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.index-banner .index-banner-content .index-banner-content-text div{
+    float: left;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.index-banner .index-banner-content .index-banner-content-text div:first-child{
+    margin-right: 30px;
+}
+.index-banner .index-banner-content .index-banner-content-text div p{
+    font-size: 50px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+.index-banner .index-banner-content .index-banner-content-text div span{
+    opacity: 0.54;
+}
+.index-tab{
+    height: 150px;
+    background: #F0831E;
+    color: #FFFFFF;
+}
+.index-tab-content{
+    height: 150px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.index-tab .index-tab-item{
+    display: inline-block;
+    height: 150px;
+    margin-right: 185px;
+}
+.index-tab .index-tab-item:last-child{
+    margin-right: 0;
+}
+.index-tab .index-tab-item i{
+    display: block;
+    float: left;
+    height: 55px;
+    width: 55px;
+    margin-right: 33px;
+    margin-top: 47.5px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+}
+.index-tab .index-tab-item .child{
+    background-position: -411px -247px;
+}
+.index-tab .index-tab-item .parent{
+    background-position: -486px -247px;
+}
+.index-tab .index-tab-item .shequ{
+    background-position: -336px -247px;
+}
+.index-tab .index-tab-item div{
+    float: left;
+    font-size: 12px;
+    margin-top: 51px;
+}
+.index-tab .index-tab-item div p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.index-logo{
+    margin: 35px auto;
+    width: 364px; 
+    height: 98px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+    background-position: -258px -10px;
+}
+.index-desc{
+    width: 927px;
+    margin: 0 auto;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #9C9C9C;
+    text-align: center;
+}
+.index-info{
+    width: 1142px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.index-info:after{
+    clear: both;
+}
+.index-info img{
+    float: left;
+    display: block;
+    width: 571px;
+    height: 341px;
+}
+.index-info .index-info-text{
+    float: left;
+    display: block;
+    width: 571px;
+}
+.index-info .index-info-text .index-info-text-item{
+    margin-left: 42px;
+    margin-top: 25px;
+    width: 514px;
+    overflow: hidden;
+}
+.index-info .index-info-text .index-info-text-item:last-child{
+    margin-top: 57px;
+}
+.index-info .index-info-text .index-info-text-item:after{
+    clear: both;
+}
+.index-info .index-info-text .index-info-text-item i{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 50px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+}
+.index-info .index-info-text .index-info-text-item .icon1{
+    background-position: -561px -247px;
+}
+.index-info .index-info-text .index-info-text-item .icon2{
+    background-position: -336px -322px;
+}
+.index-info .index-info-text .index-info-text-item .icon3{
+    background-position: -406px -322px;
+}
+.index-info .index-info-text .index-info-text-item .icon4{
+    background-position: -476px -322px;
+}
+.index-info .index-info-text .index-info-text-item div{
+    margin-left: 85px;
+    font-size: 12px;
+    color: #9C9C9C;
+}
+.index-info .index-info-text .index-info-text-item div p{
+    font-size: 30px;
+    color: #3C3C3C;
+    margin-bottom: 12px;
+}
+.index-foot{
+    height: 500px;
+    background: #F0831E;
+    text-align: center;
+    overflow: hidden;
+}
+.index-foot i{
+    display: block;
+    width: 158px; 
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+    background-position: -10px -247px;
+}
+.index-foot p{
+    width: 600px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.index-foot span{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    opacity: 0.79;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.index-foot a{
+    display: block;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 42px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    font-size: 14px;
+    color: #F0831E;
+    text-align: center;
+}
