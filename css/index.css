@@ -316,3 +316,381 @@ a, a:active, a:hover, a:visited {
     color: #F0831E;
     text-align: center;
 }
+/* 招商合作 */
+.cooperate-head{
+    height: 230px;
+    width: 100%;
+    background: url(../img/cooperate_head.png) no-repeat center;
+}
+.cooperate-content{
+    width: 850px;
+    margin: 0 auto;
+}
+.cooperate-content .cooperate-content-title{
+    position: relative;
+    height: 40px;
+    font-size: 28px;
+    color: #3C3C3C;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 40px;
+    padding-left: 55px;
+}
+.cooperate-content .cooperate-content-title i{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+}
+.cooperate-content .cooperate-content-title .icon1{
+    background-position: -498px -128px;
+}
+.cooperate-content .cooperate-content-title .icon2{
+    background-position: -442px -128px;
+}
+.cooperate-content .cooperate-content-contact{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.cooperate-content .cooperate-content-contact:last-child{
+    margin-bottom: 105px;
+}
+.cooperate-content .cooperate-content-contact .cooperate-content-contact-item{
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #FC8B04;
+    border-radius: 6px;
+}
+.cooperate-content .cooperate-content-contact .cooperate-content-contact-item:first-child{
+    margin-right: 104px;
+}
+.cooperate-content .cooperate-content-contact .cooperate-content-contact-item .cooperate-content-contact-item-head{
+    height: 50px;
+    background: #FC8B04;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+.cooperate-content .cooperate-content-contact .cooperate-content-contact-item .cooperate-content-contact-item-content{
+    margin: 10px;
+}
+.cooperate-content .cooperate-content-contact .cooperate-content-contact-item .cooperate-content-contact-item-content p{
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+}
+.cooperate-form{
+    width: 710px;
+    margin: 0 auto;
+    margin-bottom: 126px;
+}
+.cooperate-form .cooperate-form-line{
+    height: 30px;
+    margin: 40px 0;
+}
+.cooperate-form .cooperate-form-line2{
+    height: 90px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item{
+    float: left;
+    height: 30px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item:first-child{
+    margin-right: 50px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item i{
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .icon1{
+    background-position: -308px -193px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .icon2{
+    background-position: -554px -128px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .icon3{
+    background-position: -358px -193px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .icon4{
+    background-position: -258px -193px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .icon5{
+    background-position: -408px -193px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .cooperate-form-line-item-input{
+    float: left;
+    height: 28px;
+    width: 200px;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .cooperate-form-line-item-input input{
+    height: 100%;
+    width: 170px;
+    padding: 0 15px;
+    border-radius: 4px;
+    border: 0;
+}
+.cooperate-form .cooperate-form-line .cooperate-form-line-item .cooperate-form-line-item-input select{
+    height: 100%;
+    width: 200px;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 15px;
+}
+.cooperate-form .cooperate-form-line2 .cooperate-form-line-item{
+    height: 90px;
+    width: 710px;
+}
+.cooperate-form .cooperate-form-line2 .cooperate-form-line-item .cooperate-form-line-item-textarea{
+    float: left;
+    height: 88px;
+    width: 650px;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+}
+.cooperate-form .cooperate-form-line2 .cooperate-form-line-item .cooperate-form-line-item-textarea textarea{
+    height: 58px;
+    width: 620px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 0;    
+    resize: none;
+}
+/* 关于 */
+.about-head{
+    height: 230px;
+    width: 100%;
+    background: url(../img/about_head.png) no-repeat center;
+}
+.about-tab{
+    height: 50px;
+    background: #F0831E;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+.about-tab .about-tab-item{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    margin-right: 260px;
+    cursor: pointer;
+}
+.about-tab .about-tab-item:last-child{
+    margin: 0;
+}
+.about-tab .on:after{
+    position: absolute;
+    left: 26px;
+    content: '';
+    bottom: -40px;
+    width: 0;
+    height: 0;
+    border-top: 24px solid #F0831E;
+    border-right: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 24px solid transparent; 
+}
+.about-content{
+    min-height: 500px;
+    background: url(../img/bg.png);
+    overflow: hidden;
+}
+.about-content-container{
+    width: 810px;
+    margin: 0 auto;
+}
+.about-content-container .about-content-container-text{
+    margin-top: 106px;
+    font-size: 12px;
+    color: #3C3C3C;
+}
+.about-content-container .about-content-container-join{
+    margin-top: 42px;
+    font-size: 16px;
+    color: #3C3C3C;
+}
+.about-content-container .about-content-container-join p{
+    font-size: 20px;
+    color: #F0831E;
+    text-align: center;
+}
+.about-content-container .about-content-container-join-head{
+    height: 34px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.about-content-container .about-content-container-join-head span{
+    display: block;
+    float: left;
+    margin-left: 85px;
+    height: 34px;
+    line-height: 34px;
+}
+.about-content-container .about-content-container-join-head .about-content-container-join-head-select{    
+    float: right;
+    height: 32px;
+    width: 110px;
+    margin-right: 65px;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+}
+.about-content-container .about-content-container-join-head .about-content-container-join-head-select select{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 15px;
+}
+.about-content-container .about-content-container-join-table{
+    border: 1px solid #DADADA;
+}
+.about-content-container .about-content-container-join-table div{
+    height: 32px;
+    line-height: 32px;
+}
+.about-content-container .about-content-container-join-table div:first-child{
+    background: #E7F7FF;
+    border-bottom: 1px solid #DADADA;
+}
+.about-content-container .about-content-container-join-table div span{
+    display: block;
+    width: 234px;
+    text-align: center;
+    height: 32px;
+}
+.about-content-container .about-content-container-join-table div span:first-child{
+    float: left;
+}
+.about-content-container .about-content-container-join-table div span:last-child{
+    float: right;
+}
+.about-content-container-contact{
+    margin-top: 65px;
+    margin-bottom: 122px;
+}
+.about-content-container-contact .about-content-container-contact-title{
+    position: relative;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+    color: #3C3C3C;
+    font-weight: bold;
+    padding-left: 45px;
+    margin-bottom: 80px;
+}
+.about-content-container-contact .about-content-container-contact-title i{
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background: url(../img/icon_sprites.png);
+    background-size: 632px 407px;
+}
+.about-content-container-contact .about-content-container-contact-title .icon1{
+    background-position: -458px -193px;
+}
+.about-content-container-contact .about-content-container-contact-title .icon2{
+    background-position: -501px -193px;
+}
+.about-content-container-contact .about-content-container-contact-title p{
+    font-size: 20px;
+    color: #9F9F9F;
+    margin-top: 27px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.about-content-container-contact .about-content-container-contact-one{
+    width: 635px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 115px;
+}
+.about-content-container-contact .about-content-container-contact-one:after{
+    clear: both;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item{
+    float: left;
+    width: 280px;
+    height: 244px;
+    border: 1px solid #FC8B04;
+    border-radius: 6px;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item:first-child{
+    margin-right: 70px;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item div{
+    height: 50px;
+    line-height: 50px;
+    background: #FC8B04;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #FC8B04;
+    font-weight: bold;
+    margin-top: 54px;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item span{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #9F9F9F;
+    margin-top: 15px;
+}
+.about-content-container-contact .about-content-container-contact-one .about-content-container-contact-one-item img{
+    display: block;
+    width: 131px;
+    height: 132px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+.about-content-container-contact-two{
+    width: 389px;
+    height: 314px;
+    border: 1px solid #FC8B04;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+.about-content-container-contact-two div{
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #FC8B04;
+}
+.about-content-container-contact-two img{
+    display: block;
+    width: 161px;
+    height: 163px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
