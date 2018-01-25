@@ -205,34 +205,44 @@ a, a:active, a:hover, a:visited {
     width: 927px;
     margin: 0 auto;
     margin-top: 4px;
-    font-size: 12px;
+    font-size: 13px;
     color: #9C9C9C;
     text-align: center;
 }
 .index-info{
-    width: 1142px;
     overflow: hidden;
     margin: 0 auto;
 }
 .index-info:after{
     clear: both;
 }
-.index-info img{
+.index-info .index-info-img{
     float: left;
     display: block;
-    width: 571px;
+    width: 50%;
     height: 341px;
+}
+.index-info .img1{
+    background: url(../img/index_info1.png) no-repeat right;
+}
+.index-info .img2{
+    background: url(../img/index_info2.png) no-repeat left;
 }
 .index-info .index-info-text{
     float: left;
     display: block;
-    width: 571px;
+    width: 50%;
 }
 .index-info .index-info-text .index-info-text-item{
     margin-left: 42px;
     margin-top: 25px;
     width: 514px;
     overflow: hidden;
+}
+.index-info2 .index-info-text-item{
+    float: right;
+    margin-left: 0;
+    margin-right: 42px;
 }
 .index-info .index-info-text .index-info-text-item:last-child{
     margin-top: 57px;
@@ -262,7 +272,7 @@ a, a:active, a:hover, a:visited {
 }
 .index-info .index-info-text .index-info-text-item div{
     margin-left: 85px;
-    font-size: 12px;
+    font-size: 13px;
     color: #9C9C9C;
 }
 .index-info .index-info-text .index-info-text-item div p{
@@ -325,6 +335,7 @@ a, a:active, a:hover, a:visited {
 .cooperate-content{
     width: 850px;
     margin: 0 auto;
+    margin-top: 45px;
 }
 .cooperate-content .cooperate-content-title{
     position: relative;
